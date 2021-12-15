@@ -1,11 +1,11 @@
 let site_detail = {
     'site_name': {
         'tc': 'Novel4fun',
-        'url': 'https://na-y.github.io/'
+        'url': 'https://na-y.github.io'
     },
     'site_home': {
         'tc': 'Home',
-        'url': 'https://tohg-mm.xyz'
+        'url': 'https://na-y.github.io'
     },
     'products': {
         'tc': 'Novels',
