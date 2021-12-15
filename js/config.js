@@ -1,14 +1,16 @@
 let site_detail = {
     'site_name': {
-        'tc': 'Novel4fun',
-        'url': 'https://na-y.github.io'
+        'tc': 'LovelyMyanmar',
+        'url': 'https://lovelymyanmar.github.io'
     },
     'site_home': {
         'tc': 'Home',
-        'url': 'https://na-y.github.io'
+        'url': 'https://lovelymyanmar.github.io/springmoni'
     },
     'products': {
-        'tc': 'Novels',
-        'url': 'https://na-y.github.io/novels/index.html'
+        'tc': 'Our Products',
+        'url': 'https://lovelymyanmar.github.io/springmoni/products/index.html'
     }
 }
+
+export {site_detail}
