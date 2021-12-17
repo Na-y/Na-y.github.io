@@ -1,3 +1,6 @@
-import { site_detail } from './config.js';
-import { serveMenu } from './menu.js';
-serveMenu(site_detail);
+import { openMenu, closeMenu } from "https://na-y.github.io/js/menu.js";
+openMenu(); closeMenu();
+
+import { articles } from "https://na-y.github.io/js/articles.js";
+let blog = 'day2tutorial'; // https://day2tutorial.blogspot.com/
+articles(blog);
