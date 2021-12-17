@@ -39,7 +39,7 @@ header {
     padding: 0;       
        
 }       
-.mbtnav li a, .mbtnav li a:link, .mbtnav li a:visited {  
+.mbtnav li a, #mbtnav li a:link, #mbtnav li a:visited {  
    color: #ACADB0;       
     display: block;           
    font:bold 12px Helvetica, sans-serif;       
@@ -50,7 +50,7 @@ header {
 
     
 }      
-.mbtnav li a:hover, .mbtnav li a:active {              
+.mbtnav li a:hover, #mbtnav li a:active {              
     color: #E6E6E6;             
     text-decoration: none;       
         margin: 0;       
@@ -86,16 +86,16 @@ header {
     margin: -25px 0 0 161px;    
 }
     
-.mbtnav li:hover ul ul, .mbtnav li:hover ul ul ul, .mbtnav li.sfhover ul ul, .mbtnav li.sfhover ul ul ul {      
+.mbtnav li:hover ul ul, #mbtnav li:hover ul ul ul, #mbtnav li.sfhover ul ul, #mbtnav li.sfhover ul ul ul {      
     left: -999em;       
 }       
-.mbtnav li:hover ul, .mbtnav li li:hover ul, .mbtnav li li li:hover ul, .mbtnav li.sfhover ul, .mbtnav li li.sfhover ul, .mbtnav li li li.sfhover ul {       
+.mbtnav li:hover ul, #mbtnav li li:hover ul, #mbtnav li li li:hover ul, #mbtnav li.sfhover ul, #mbtnav li li.sfhover ul, #mbtnav li li li.sfhover ul {       
     left: auto;       
 }       
-.mbtnav li:hover, .mbtnav li.sfhover {       
+.mbtnav li:hover, #mbtnav li.sfhover {       
     position: static;       
 }       
-.mbtnav li li a, .mbtnav li li a:link, .mbtnav li li a:visited {       
+.mbtnav li li a, #mbtnav li li a:link, #mbtnav li li a:visited {       
     background: #EDEFF4;       
     width: 120px;       
     color: #606060;       
@@ -115,7 +115,7 @@ border:1px solid #ddd;
     
    
 }       
-.mbtnav li li a:hover, .mbtnav li li a:active {       
+.mbtnav li li a:hover, #mbtnav li li a:active {       
     background: #627AAD;       
     color: #FFF;       
     display: block;      
@@ -124,7 +124,7 @@ border:1px solid #ddd;
 
     
      
-.mbtnav li li li a, .mbtnav li li li a:link, .mbtnav li li li a:visited {
+.mbtnav li li li a, #mbtnav li li li a:link, #mbtnav li li li a:visited {
 
     
     background: #EDEFF4;      
@@ -140,7 +140,7 @@ border:1px solid #ddd;
    
    
 }       
-.mbtnav li li li a:hover, .mbtnav li li li a:active {       
+.mbtnav li li li a:hover, #mbtnav li li li a:active {       
     background: #627AAD;       
     color: #FFF;       
     display: block;    
