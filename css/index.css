@@ -79,6 +79,16 @@ header {
     color: #333;
     word-wrap: break-word;
 }
+.cat-in-loop {
+    display: block;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 0.6rem;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 300;
+    word-wrap: break-word;
+}
 
 @media only screen and (max-width: 690px) {
     .menu-container {
